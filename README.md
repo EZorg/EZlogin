@@ -16,3 +16,7 @@ sudo gnome-open EZLogin.jar &
 
 #Development In EZLogin
 Inside the src folder you will find all of EZLogins source code for a wide understanding of our application you should start by looking through CentralAPI. All backend code is entracting with the gui exclusively through CentralAPI. Feel free to modify any and all code in this application. For compilation it is important to have the browser folder and the Accounts folder within the same directory as the .class files otherwise it will not be able to access the database or the firefox binaries. the browser and Accounts folder are located within our EZLogin.zip. Enjoy!                                                                                                                                                                                          
+#To Do List
+-Apply Encyption to the passwords used for login and reversable encryption for the password vaults of users
+-Apply Updates for google login to adhere to googles new sign in page
+-Apply new query format for database to prevent sql injection
